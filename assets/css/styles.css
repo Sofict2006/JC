@@ -107,14 +107,26 @@ img {
 }
 
 .nav__list {
-  margin-left: auto;
+  margin-left: auto;  
   display: flex;
   flex-direction: row;
   row-gap: 4.5rem;
 }
 
-.nav__item {
-  
+.nav__link {
+  color: var(--text-color);
+  font-weight: var(--font-semi-bold);
+  row-gap: 2.5rem;
+}
+
+.nav__button {
+  display: inline-block;
+  width: max-content;
+  background-color: var(--body-color);
+  color: var(--title-color);
+  border: 2px solid var(--text-color);
+  padding: 1rem 3rem;
+  border-radius: 4rem;
 }
 
 .nav__logo {
@@ -122,6 +134,13 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--text-color);
+  column-gap: 5rem;
+  font-weight: var(--font-semi-bold);
+}
+
+.nav__logo i {
+  font-size: 1.25rem;
+  font-weight: initial;
 }
 
 .nav__link {
