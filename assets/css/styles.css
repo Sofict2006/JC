@@ -82,8 +82,50 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
-.li_nav {
-  float: left;
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+}
+
+.nav {
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  column-gap: 4.5rem;
+  width: 60%;
+}
+
+.nav__list {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  row-gap: 4.5rem;
+}
+
+.nav__item {
+  
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+}
+
+.nav__link {
+  color: var(--text-color);
 }
 
 /* Navigation for mobile devices */
