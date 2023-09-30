@@ -82,7 +82,9 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
-
+.li_nav {
+  float: left;
+}
 
 /* Navigation for mobile devices */
 
